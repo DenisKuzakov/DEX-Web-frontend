@@ -7,7 +7,7 @@
        $themeClass = 'light-theme';
      }  
    }
-?>
+   ?>
 <!DOCTYPE html>
 <html lang="ru" translate="yes">
    <head>
@@ -81,71 +81,21 @@
                      <ul class="navbar-nav align-items-lg-center d-block d-lg-flex align-items-center order-2 order-lg-1">
                         <li class="nav-item dropdown">
                            <a class="nav-link text-nowrap" href="/">
-                              Exchange
+                           Exchange
                            </a>
                         </li>
                         <li class="nav-item dropdown">
                            <a class="nav-link text-nowrap" href="/liquidity.php">
-                              Liquidity
+                           Liquidity
                            </a>
                         </li>
-                        <!--li class="nav-item dropdown">
-                           <a class="nav-link text-nowrap" href="#!" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                           Trade<i class="fa-solid fa-angle-down small ms-auto ms-lg-2"></i>
-                           </a>
-                           <ul class="dropdown-menu">
-                              <li>
-                                 <a class="dropdown-item d-flex align-items-center" href="/">
-                                    <i class="fa-light fa-arrow-down-arrow-up dropdown-item-icon"></i>
-                                    <div class="ms-3">
-                                       Exchange
-                                       <div class="text-muted small">Trade with the lowest fee</div>
-                                    </div>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a class="dropdown-item d-flex align-items-center" href="/liquidity.php">
-                                    <i class="fa-light fa-money-bill-transfer dropdown-item-icon"></i>
-                                    <div class="ms-3">
-                                       Liquidity
-                                       <div class="text-muted small">Start earning from fees</div>
-                                    </div>
-                                 </a>
-                              </li>
-                           </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                           <a class="nav-link text-nowrap" href="#!" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                           Earn <i class="fa-solid fa-angle-down small ms-auto ms-lg-2"></i>
-                           </a>
-                           <ul class="dropdown-menu">
-                              <li>
-                                 <a class="dropdown-item d-flex align-items-center" href="/tokens.php">
-                                    <i class="fa-light fa-money-bill-wheat dropdown-item-icon"></i>
-                                    <div class="ms-3">
-                                       Farms
-                                       <div class="text-muted small">Earn double rewards</div>
-                                    </div>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a class="dropdown-item d-flex align-items-center" href="/referral.php">
-                                    <i class="fa-light fa-users dropdown-item-icon"></i>
-                                    <div class="ms-3">
-                                       Referral Program
-                                       <div class="text-muted small">Refer and get more</div>
-                                    </div>
-                                 </a>
-                              </li>
-                           </ul>
-                        </li-->
                         <li class="nav-item dropdown">
                            <a class="nav-link text-nowrap" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                            Wallet <i class="fa-solid fa-angle-down small ms-auto ms-lg-2"></i>
                            </a>
-                           <ul class="dropdown-menu">
+                           <ul class="dropdown-menu" data-bs-popper="static">
                               <li>
-                                 <a class="dropdown-item d-flex" href="#!">
+                                 <a class="dropdown-item d-flex" href="https://tegro.io/wallet.php" target="_blank" title="Web Wallet">
                                     <i class="fa-light fa-wallet dropdown-item-icon"></i>
                                     <div class="ms-3">
                                        Web Wallet
@@ -154,11 +104,29 @@
                                  </a>
                               </li>
                               <li>
-                                 <a class="dropdown-item d-flex" href="/referral.php">
+                                 <a class="dropdown-item d-flex" href="https://play.google.com/store/apps/details?id=com.tonholdwallet.android" title="Android App" target="_blank">
+                                    <i class="fa-brands fa-google-play dropdown-item-icon"></i>
+                                    <div class="ms-3">
+                                       Android App
+                                       <div class="text-muted small">Wallet extension for Android</div>
+                                    </div>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a class="dropdown-item d-flex" href="https://chrome.google.com/webstore/detail/cdpdjfhimjdmbakdbabcklagceoikifg" title="Chrome App" target="_blank">
                                     <i class="fa-brands fa-chrome dropdown-item-icon"></i>
                                     <div class="ms-3">
-                                       Browser App
-                                       <div class="text-muted small">Wallet extension for your browser</div>
+                                       Chrome App
+                                       <div class="text-muted small">Wallet extension for Chrome browser</div>
+                                    </div>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a class="dropdown-item d-flex" href="https://microsoftedge.microsoft.com/addons/detail/dgegbhgbijbhkmkacomdlogdkacokpam" title="Microsoft Edge" target="_blank">
+                                    <i class="fa-brands fa-edge dropdown-item-icon"></i>
+                                    <div class="ms-3">
+                                       Microsoft Edge
+                                       <div class="text-muted small">Wallet extension for Edge browser</div>
                                     </div>
                                  </a>
                               </li>
@@ -168,12 +136,21 @@
                            <a class="nav-link text-nowrap" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                            E-Commerce<i class="fa-solid fa-angle-down small ms-auto ms-lg-2"></i>
                            </a>
-                           <ul class="dropdown-menu">
+                           <ul class="dropdown-menu" data-bs-popper="static">
+                              <li>
+                                 <a class="dropdown-item d-flex" href="https://tegro.io/commerce.php" target="__blank">
+                                    <i class="fa-light fa-money-check-dollar-pen dropdown-item-icon"></i>
+                                    <div class="ms-3">
+                                       Payment system
+                                       <div class="text-muted small">Connection of payment systems and banks without commissions.</div>
+                                    </div>
+                                 </a>
+                              </li>
                               <li class="p-3 fs-14 fw-medium text-muted">
                                  For Business
                               </li>
                               <li>
-                                 <a class="dropdown-item d-flex" href="/">
+                                 <a class="dropdown-item d-flex" href="https://tegro.money/referral-program/" target="__blank">
                                     <i class="fa-light fa-handshake dropdown-item-icon"></i>
                                     <div class="ms-3">
                                        Affiliate program
@@ -183,7 +160,7 @@
                                  </a>
                               </li>
                               <li>
-                                 <a class="dropdown-item d-flex" href="/liquidity.php">
+                                 <a class="dropdown-item d-flex" href="https://tegro.money/security/" target="__blank">
                                     <i class="fa-light fa-shield-check dropdown-item-icon"></i>
                                     <div class="ms-3">
                                        Security
@@ -195,21 +172,21 @@
                                  Developers
                               </li>
                               <li>
-                                 <a class="dropdown-item d-flex" href="/tokens.php">
+                                 <a class="dropdown-item d-flex" href="https://tegro.money/docs/en/" target="__blank">
                                     <i class="fa-light fa-book dropdown-item-icon"></i>
                                     <div class="ms-3">
-                                       All documentation 
+                                       All documentation
                                        <div class="text-muted small">All ways of integration and interaction</div>
                                     </div>
                                  </a>
                                  <ul class="list-style-inside ps-0 ps-lg-4 d-flex">
                                     <li>
-                                       <a href="#!" class="dropdown-item fs-14">
+                                       <a class="dropdown-item fs-14" href="https://tegro.money/docs/en/begin/register/add-shop/" target="__blank">
                                        Adding a store
                                        </a>
                                     </li>
                                     <li>
-                                       <a href="#!" class="dropdown-item fs-14">
+                                       <a class="dropdown-item fs-14" href="https://tegro.money/docs/en/sci/create-payment/" target="__blank">
                                        Api Documentation
                                        </a>
                                     </li>
@@ -221,18 +198,18 @@
                            <a class="nav-link text-nowrap" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                            NFT <i class="fa-solid fa-angle-down small ms-auto ms-lg-2"></i>
                            </a>
-                           <ul class="dropdown-menu">
+                           <ul class="dropdown-menu" data-bs-popper="static">
                               <li>
-                                 <a class="dropdown-item d-flex" href="#!">
+                                 <a class="dropdown-item d-flex" href="https://libermall.com/" target="__blank">
                                     <i class="fa-light fa-house dropdown-item-icon"></i>
                                     <div class="ms-3">
-                                       Libermall 
+                                       Libermall
                                        <div class="dropdown-item__desc text-muted small">A new, modern and slick NFT marketplace</div>
                                     </div>
                                  </a>
                               </li>
                               <li>
-                                 <a class="dropdown-item d-flex" href="/referral.php">
+                                 <a class="dropdown-item d-flex" href="https://libermall.com/#explore" target="__blank">
                                     <i class="fa-light fa-hexagon-vertical-nft dropdown-item-icon"></i>
                                     <div class="ms-3">
                                        Explore Collections
@@ -246,35 +223,68 @@
                            <a class="nav-link text-nowrap" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                            More  <i class="fa-solid fa-angle-down small ms-auto ms-lg-2"></i>
                            </a>
-                           <ul class="dropdown-menu border-bottom-0" aria-labelledby="navbarDropdown">
-                              <li>
-                                 <a class="dropdown-item d-flex align-items-center" href="/privacy.php">
-                                    <i class="fa-light fa-file-contract dropdown-item-icon"></i>
-                                    <div class="ms-3">
-                                       Privacy policy
-                                       <div class="text-muted small">Last updated October 5, 2021.</div>
-                                    </div>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a class="dropdown-item d-flex align-items-center" href="/terms.php">
-                                    <i class="fa-light fa-file-contract dropdown-item-icon"></i>
-                                    <div class="ms-3">
-                                       Terms of use
-                                       <div class="text-muted small">Last updated October 18, 2022.</div>
-                                    </div>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a class="dropdown-item d-flex align-items-center" href="/contact.php">
-                                    <i class="fa-light fa-envelope-open-text dropdown-item-icon"></i>
-                                    <div class="ms-3">
-                                       Contact Us
-                                       <div class="text-muted small">Write to us</div>
-                                    </div>
-                                 </a>
-                              </li>
-                           </ul>
+                           <div class="dropdown-menu" data-bs-popper="static">
+                              <div class="d-flex flex-wrap">
+                                 <ul class="list-unstyled w-50 flex-lg-fill">
+                                    <li>
+                                       <a class="dropdown-item d-flex" href="https://tegro.money/pay/coupons/" target="_blank">
+                                          <i class="fa-light fa-badge-percent dropdown-item-icon"></i>
+                                          <div class="ms-3">
+                                             Discounts
+                                             <div class="text-muted small">And coupons</div>
+                                          </div>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item d-flex" href="https://tegro.money/advantages/" target="_blank">
+                                          <i class="fa-light fa-rocket-launch dropdown-item-icon"></i>
+                                          <div class="ms-3">
+                                             Advantages
+                                             <div class="text-muted small">Use all the features of the service</div>
+                                          </div>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item d-flex" href="/contact.php" target="_blank">
+                                          <i class="fa-light fa-code dropdown-item-icon"></i>
+                                          <div class="ms-3">
+                                             Jobs
+                                             <div class="text-muted small">Leaders in the provision of services</div>
+                                          </div>
+                                       </a>
+                                    </li>
+                                 </ul>
+                                 <ul class="list-unstyled w-50 flex-lg-fill">
+                                    <li>
+                                       <a class="dropdown-item d-flex" href="/privacy.php" target="_blank">
+                                          <i class="fa-light fa-file-contract dropdown-item-icon"></i>
+                                          <div class="ms-3">
+                                             Privacy policy
+                                             <div class="text-muted small">Last updated October 5, 2021.</div>
+                                          </div>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item d-flex" href="/terms.php" target="_blank">
+                                          <i class="fa-light fa-file-contract dropdown-item-icon"></i>
+                                          <div class="ms-3">
+                                             Terms of use
+                                             <div class="text-muted small">Last updated October 18, 2022.</div>
+                                          </div>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item d-flex" href="https://tegro.money/contacts/" target="_blank">
+                                          <i class="fa-light fa-envelope-open-text dropdown-item-icon"></i>
+                                          <div class="ms-3">
+                                             Contact Us
+                                             <div class="text-muted small">Write to us</div>
+                                          </div>
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
                         </li>
                      </ul>
                      <ul class="navbar-nav align-items-lg-center d-block d-lg-flex align-items-center ms-auto order-1 order-lg-2">
