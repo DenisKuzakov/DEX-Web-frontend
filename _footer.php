@@ -286,6 +286,8 @@
    </div>
 </div>
 
+<script charset="UTF-8" src="//web.webpushs.com/js/push/cbb05a201d237186ab2ff280100b2475_1.js" async></script>
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
