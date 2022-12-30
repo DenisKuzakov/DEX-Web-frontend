@@ -6,11 +6,11 @@
          <a href="https://t.me/tegro_money" class="copyright-link fw-700 mb-3" target="_blank" rel="noreferrer">DEX by Tegro</a>
          <div class="soc-box d-flex align-items-center">
             <a href="https://www.instagram.com/tegromoney/" target="_blank" class="soc-link px-3 text-muted fs-18" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://t.me/tegromoney" target="_blank" class="soc-link px-3 text-muted fs-18" rel="noreferrer"><i class="fa-brands fa-telegram"></i></a>
-            <a href="https://vk.com/tegromoney" target="_blank" class="soc-link px-3 text-muted fs-18" rel="noreferrer"><i class="fa-brands fa-vk"></i></a>
-            <a href="https://twitter.com/tegromoney" target="_blank" class="soc-link px-3 text-muted fs-18" rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://t.me/tegro_money" target="_blank" class="soc-link px-3 text-muted fs-18" rel="noreferrer"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://vk.com/tegro" target="_blank" class="soc-link px-3 text-muted fs-18" rel="noreferrer"><i class="fa-brands fa-vk"></i></a>
+            <a href="https://twitter.com/TegroDEX" target="_blank" class="soc-link px-3 text-muted fs-18" rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>
             <a href="https://www.reddit.com/user/TegroMoney" target="_blank" class="soc-link px-3 text-muted fs-18" rel="noreferrer"><i class="fa-brands fa-reddit-alien"></i></a>
-            <a href="https://medium.com/@tegromoney" target="_blank" class="soc-link px-3 text-muted" rel="noreferrer"><i class="fa-brands fa-medium"></i></a>
+            <a href="https://tegro.medium.com/" target="_blank" class="soc-link px-3 text-muted" rel="noreferrer"><i class="fa-brands fa-medium"></i></a>
             <a href="https://www.linkedin.com/company/tegromoney/" target="_blank" class="soc-link px-3 text-muted fs-18" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
          </div>
       </div>
@@ -285,6 +285,34 @@
       </div>
    </div>
 </div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+
+   ym(91906619, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/91906619" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L1HY1511EV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L1HY1511EV');
+</script>
+
 <script src="/assets/js/jquery-3.6.0.min.js"></script>
 <script src="/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 <?php if($_SERVER['REQUEST_URI'] == '/symbol-detail.php') { ?>
